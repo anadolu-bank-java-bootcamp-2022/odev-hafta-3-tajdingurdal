@@ -28,3 +28,18 @@ public class DrawGraphicApplication implements CommandLineRunner {
 				1000, 1000);
 	}
 }
+
+/*
+ * Görev özeti: resources klasoründe ki .csv uzantılı dosya içerisinde ki
+ * verileri bir mum grafiğine dönüştür.
+ * 
+ * DrawGraphicApplication çalıştırdığınızda, proje klasöründe result.png adında
+ * bir dosya oluşacaktır. Burada oluşan grafiği görebileceksiniz.
+ */
+
+/*
+ * PROJE PLANI: 
+ * 1. Önce readCSV(String filename) metodu ile .csv dosyasında ki bilgileri okumalısın. Ve List<Candle> döndürmelisin.
+ * 2. .csv dosyasında ki bilgileri okuduktan sonra createChartFromCryptoData() ile .csv dosyasınan okuduğun bilgiler ile bir grafik oluştur.
+ * 
+ */

@@ -20,6 +20,7 @@ public class TimeUtils {
 	}
 
 	public static Date convertToDate(long millis) {
+		return null;
 		// Bu metodu doldurmanizi bekliyoruz.
 	}
 }
